@@ -1,0 +1,345 @@
+{
+  "corpus": "30 AMD Ryzen CPU HTML snapshots",
+  "language": "vi",
+  "notes": [
+    "gold_page=1 is a traceability placeholder for a single HTML source unit, not a physical PDF page.",
+    "gold_source_id values are stable slugs derived from source filenames.",
+    "For questions with multiple gold sources, gold_source_id, gold_page and evidence_quote are parallel arrays.",
+    "Metadata filters are pre-retrieval context and must not be inferred from the answer."
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "split": "dev",
+      "type": "direct",
+      "question": "AMD Ryzen 3 8300G có bao nhiêu nhân và bao nhiêu luồng?",
+      "expected_answer": "4 nhân và 8 luồng.",
+      "gold_source_id": [
+        "amd-ryzen-3-8300g"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "# of Cores: 4",
+        "# of Threads: 8"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q02",
+      "split": "dev",
+      "type": "direct",
+      "question": "Xung nhịp cơ bản (Frequency) của Ryzen 5 7600X là bao nhiêu?",
+      "expected_answer": "4.7 GHz.",
+      "gold_source_id": [
+        "amd-ryzen-5-7600x"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Frequency: 4.7 GHz"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q03",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Ryzen 5 7500X3D có tổng cộng bao nhiêu bộ nhớ đệm L3?",
+      "expected_answer": "96 MB cache L3 (shared).",
+      "gold_source_id": [
+        "amd-ryzen-5-7500x3d"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Cache L3: 96 MB (shared)"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q04",
+      "split": "dev",
+      "type": "direct",
+      "question": "GPU tích hợp trong Ryzen 5 8600G là dòng Radeon nào?",
+      "expected_answer": "Radeon 760M.",
+      "gold_source_id": [
+        "amd-ryzen-5-8600g"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Integrated Graphics: Radeon 760M"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q05",
+      "split": "dev",
+      "type": "direct",
+      "question": "Mức TDP được ghi cho Ryzen 7 8700GE là bao nhiêu?",
+      "expected_answer": "35 W.",
+      "gold_source_id": [
+        "amd-ryzen-7-8700ge"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "TDP: 35 W"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q06",
+      "split": "dev",
+      "type": "direct",
+      "question": "Ryzen 7 9700X thuộc kiến trúc và codename nào?",
+      "expected_answer": "Zen 5, codename Granite Ridge.",
+      "gold_source_id": [
+        "amd-ryzen-7-9700x"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Generation: Ryzen 7 (Zen 5 (Granite Ridge))",
+        "Codename: Granite Ridge"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q07",
+      "split": "dev",
+      "type": "direct",
+      "question": "Ryzen 9 7900X có cấu hình bao nhiêu nhân và bao nhiêu luồng?",
+      "expected_answer": "12 nhân và 24 luồng.",
+      "gold_source_id": [
+        "amd-ryzen-9-7900x"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "# of Cores: 12",
+        "# of Threads: 24"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q08",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Dung lượng cache L3 của Ryzen 9 7950X3D là bao nhiêu?",
+      "expected_answer": "128 MB.",
+      "gold_source_id": [
+        "amd-ryzen-9-7950x3d"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Cache L3: 128 MB"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q09",
+      "split": "dev",
+      "type": "direct",
+      "question": "Ryzen 7 9800X3D có thể đạt Turbo Clock tối đa bao nhiêu?",
+      "expected_answer": "Up to 5.2 GHz.",
+      "gold_source_id": [
+        "amd-ryzen-7-9800x3d"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Turbo Clock: up to 5.2 GHz"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q10",
+      "split": "dev",
+      "type": "conditional",
+      "question": "Nếu cần một CPU Ryzen 9 có 16 nhân, Ryzen 9 9950X có TDP được công bố là bao nhiêu?",
+      "expected_answer": "170 W.",
+      "gold_source_id": [
+        "amd-ryzen-9-9950x"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "# of Cores: 16",
+        "TDP: 170 W"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q11",
+      "split": "dev",
+      "type": "direct",
+      "question": "Hệ số nhân của Ryzen 5 7400 có được mở khóa không?",
+      "expected_answer": "Có; trường Multiplier Unlocked được ghi là Yes.",
+      "gold_source_id": [
+        "amd-ryzen-5-7400"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Multiplier Unlocked: Yes"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q12",
+      "split": "dev",
+      "type": "direct",
+      "question": "Ryzen 5 8500G hỗ trợ chuẩn PCI Express nào và bao nhiêu lane từ CPU?",
+      "expected_answer": "PCIe Gen 4, 14 lanes (CPU only).",
+      "gold_source_id": [
+        "amd-ryzen-5-8500g"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "PCI-Express: Gen 4, 14 Lanes (CPU only)"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q13",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Ryzen 7 7700 có mức tiêu thụ nhiệt thiết kế (TDP) bao nhiêu và boost tối đa đến mức nào?",
+      "expected_answer": "TDP 65 W; Turbo Clock up to 5.3 GHz.",
+      "gold_source_id": [
+        "amd-ryzen-7-7700"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "TDP: 65 W",
+        "Turbo Clock: up to 5.3 GHz"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q14",
+      "split": "dev",
+      "type": "direct",
+      "question": "Ryzen 9 9900X có bao nhiêu nhân và xung Turbo Clock tối đa bao nhiêu?",
+      "expected_answer": "12 nhân; Turbo Clock up to 5.6 GHz.",
+      "gold_source_id": [
+        "amd-ryzen-9-9900x"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "# of Cores: 12",
+        "Turbo Clock: up to 5.6 GHz"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q15",
+      "split": "dev",
+      "type": "comparison",
+      "question": "So sánh xung nhịp cơ bản của Ryzen 5 7500 và Ryzen 5 7600: mẫu nào có Frequency cao hơn và chênh lệch bao nhiêu?",
+      "expected_answer": "Ryzen 5 7600 cao hơn: 3.8 GHz so với 3.7 GHz, chênh lệch 0.1 GHz.",
+      "gold_source_id": [
+        "amd-ryzen-5-7500",
+        "amd-ryzen-5-7600"
+      ],
+      "gold_page": [
+        1,
+        1
+      ],
+      "evidence_quote": [
+        "Ryzen 5 7500 — Frequency: 3.7 GHz",
+        "Ryzen 5 7600 — Frequency: 3.8 GHz"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q16",
+      "split": "test",
+      "type": "comparison",
+      "question": "So với Ryzen 7 9700X, Ryzen 7 9800X3D có dung lượng cache L3 lớn hơn bao nhiêu?",
+      "expected_answer": "Ryzen 7 9800X3D có 96 MB, Ryzen 7 9700X có 32 MB; lớn hơn 64 MB.",
+      "gold_source_id": [
+        "amd-ryzen-7-9700x",
+        "amd-ryzen-7-9800x3d"
+      ],
+      "gold_page": [
+        1,
+        1
+      ],
+      "evidence_quote": [
+        "Ryzen 7 9700X — Cache L3: 32 MB (shared)",
+        "Ryzen 7 9800X3D — Cache L3: 96 MB (shared)"
+      ],
+      "filter": null
+    },
+    {
+      "id": "Q17",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong phạm vi nhóm sản phẩm đã chọn, mẫu nào có TDP thấp nhất và mức TDP đó là bao nhiêu?",
+      "expected_answer": "AMD Ryzen 7 8700GE, TDP 35 W.",
+      "gold_source_id": [
+        "amd-ryzen-7-8700ge"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Generation: Ryzen 7 (Zen 4 (Phoenix))",
+        "TDP: 35 W"
+      ],
+      "filter": {
+        "series": "Ryzen 7"
+      }
+    },
+    {
+      "id": "Q18",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong phạm vi kiến trúc đã chọn, mẫu Ryzen 7 nào có Turbo Clock cao nhất và đạt mức bao nhiêu?",
+      "expected_answer": "AMD Ryzen 7 9850X3D, Turbo Clock up to 5.6 GHz.",
+      "gold_source_id": [
+        "amd-ryzen-7-9850x3d"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Generation: Ryzen 7 (Zen 5 (Granite Ridge))",
+        "Turbo Clock: up to 5.6 GHz"
+      ],
+      "filter": {
+        "architecture": "Zen 5",
+        "series": "Ryzen 7"
+      }
+    },
+    {
+      "id": "Q19",
+      "split": "test",
+      "type": "metadata_filter",
+      "question": "Trong phạm vi nhóm CPU đã chọn, model nào có 12 nhân và Turbo Clock tối đa 5.5 GHz?",
+      "expected_answer": "AMD Ryzen 9 9900X3D.",
+      "gold_source_id": [
+        "amd-ryzen-9-9900x3d"
+      ],
+      "gold_page": 1,
+      "evidence_quote": [
+        "Generation: Ryzen 9 (Zen 5 (Granite Ridge))",
+        "# of Cores: 12",
+        "Turbo Clock: up to 5.5 GHz"
+      ],
+      "filter": {
+        "architecture": "Zen 5",
+        "series": "Ryzen 9"
+      }
+    },
+    {
+      "id": "Q20",
+      "split": "test",
+      "type": "conditional",
+      "question": "Nếu cần ECC memory, Ryzen 5 8600G có đáp ứng không? Đối chiếu với Ryzen 5 8500G.",
+      "expected_answer": "Ryzen 5 8600G không hỗ trợ ECC memory; Ryzen 5 8500G có hỗ trợ.",
+      "gold_source_id": [
+        "amd-ryzen-5-8600g",
+        "amd-ryzen-5-8500g"
+      ],
+      "gold_page": [
+        1,
+        1
+      ],
+      "evidence_quote": [
+        "Ryzen 5 8600G — ECC Memory: No",
+        "Ryzen 5 8500G — ECC Memory: Yes"
+      ],
+      "filter": null
+    }
+  ]
+}
