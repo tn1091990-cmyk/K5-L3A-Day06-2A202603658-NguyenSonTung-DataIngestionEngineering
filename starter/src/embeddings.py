@@ -31,14 +31,14 @@ class MyEmbedder:
 
         self.client = openai.OpenAI(
             base_url=os.getenv(
-                "EMBEDDING_BASE_URL",
+                "LLAMA_CPP_BASE_URL",
                 "http://127.0.0.1:9931/v1",
             ),
-            api_key=os.getenv("EMBEDDING_API_KEY", "not-needed"),
+            api_key=os.getenv("LLAMA_CPP_API_KEY", "not-needed"),
         )
 
         self.batch_size = int(
-            os.getenv("EMBEDDING_BATCH_SIZE", "32")
+            os.getenv("LLAMA_CPP_BATCH_SIZE", "32")
         )
 
         if self.batch_size <= 0:

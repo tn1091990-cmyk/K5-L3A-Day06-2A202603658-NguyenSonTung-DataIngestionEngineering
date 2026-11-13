@@ -22,6 +22,10 @@
         "# of Cores: 4",
         "# of Threads: 8"
       ],
+      "acceptable_evidence": [
+       "AMD Ryzen 3 8300G is a desktop processor with 4 cores",
+       "for a total of 8 threads"
+    ],
       "filter": null
     },
     {

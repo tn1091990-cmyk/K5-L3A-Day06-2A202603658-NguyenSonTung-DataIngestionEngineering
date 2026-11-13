@@ -79,6 +79,16 @@ class HTMLTextExtractor(HTMLParser):
         return normalize_text("".join(self.parts))
 
 
+def make_document_id(filename: str) -> str:
+    """Create a stable document ID from a filename."""
+    import re
+
+    return re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        filename.lower()
+    ).strip("-")
+
 def load_pdf(path: Path, document_id: str, source: str,) -> list[DocumentPage]:
     """Extract each physical PDF page."""
 
@@ -201,7 +211,7 @@ def load_html_directory(directory: Path) -> list[DocumentPage]:
         try:
             document = load_html(
                 path=path,
-                document_id=path.stem,
+                document_id=make_document_id(path.stem),
             )
 
             documents.append(document)

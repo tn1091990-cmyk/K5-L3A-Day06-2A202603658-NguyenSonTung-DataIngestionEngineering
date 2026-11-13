@@ -7,9 +7,9 @@
   "document_count": 30,
   "documents": [
     {
-      "document_id": "amd-ryzen-3-8300g-specs",
+      "document_id": "amd-ryzen-3-8300g",
       "title": "AMD Ryzen 3 8300G Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 3 8300G Specs.html",
+      "file_path": "data/AMD Ryzen 3 8300G.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-3-8300g.c3459",
       "capture_method": "SingleFile",
@@ -21,9 +21,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-3-pro-8300g-specs",
+      "document_id": "amd-ryzen-3-pro-8300g",
       "title": "AMD Ryzen 3 PRO 8300G Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 3 PRO 8300G Specs.html",
+      "file_path": "data/AMD Ryzen 3 PRO 8300G.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-3-pro-8300g.c4023",
       "capture_method": "SingleFile",
@@ -35,9 +35,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-7400-specs",
+      "document_id": "amd-ryzen-5-7400",
       "title": "AMD Ryzen 5 7400 Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 7400 Specs.html",
+      "file_path": "data/AMD Ryzen 5 7400.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-7400.c4243",
       "capture_method": "SingleFile",
@@ -49,9 +49,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-7500-specs",
+      "document_id": "amd-ryzen-5-7500",
       "title": "AMD Ryzen 5 7500 Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 7500 Specs.html",
+      "file_path": "data/AMD Ryzen 5 7500.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-7500.c4572",
       "capture_method": "SingleFile",
@@ -63,9 +63,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-7500x3d-specs",
+      "document_id": "amd-ryzen-5-7500x3d",
       "title": "AMD Ryzen 5 7500X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 7500X3D Specs.html",
+      "file_path": "data/AMD Ryzen 5 7500X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-7500x3d.c4378",
       "capture_method": "SingleFile",
@@ -77,9 +77,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-7600-specs",
+      "document_id": "amd-ryzen-5-7600",
       "title": "AMD Ryzen 5 7600 Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 7600 Specs.html",
+      "file_path": "data/AMD Ryzen 5 7600.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-7600.c2959",
       "capture_method": "SingleFile",
@@ -91,9 +91,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-7600x-specs",
+      "document_id": "amd-ryzen-5-7600x",
       "title": "AMD Ryzen 5 7600X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 7600X Specs.html",
+      "file_path": "data/AMD Ryzen 5 7600X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-7600x.c2849",
       "capture_method": "SingleFile",
@@ -105,9 +105,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-7600x3d-specs",
+      "document_id": "amd-ryzen-5-7600x3d",
       "title": "AMD Ryzen 5 7600X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 7600X3D Specs.html",
+      "file_path": "data/AMD Ryzen 5 7600X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-7600x3d.c3792",
       "capture_method": "SingleFile",
@@ -119,9 +119,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-8500g-specs",
+      "document_id": "amd-ryzen-5-8500g",
       "title": "AMD Ryzen 5 8500G Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 8500G Specs.html",
+      "file_path": "data/AMD Ryzen 5 8500G.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-8500g.c3436",
       "capture_method": "SingleFile",
@@ -133,9 +133,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-5-8600g-specs",
+      "document_id": "amd-ryzen-5-8600g",
       "title": "AMD Ryzen 5 8600G Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 5 8600G Specs.html",
+      "file_path": "data/AMD Ryzen 5 8600G.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-5-8600g.c3435",
       "capture_method": "SingleFile",
@@ -147,9 +147,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-7700-specs",
+      "document_id": "amd-ryzen-7-7700",
       "title": "AMD Ryzen 7 7700 Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 7700 Specs.html",
+      "file_path": "data/AMD Ryzen 7 7700.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-7700.c2960",
       "capture_method": "SingleFile",
@@ -161,9 +161,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-7700x-specs",
+      "document_id": "amd-ryzen-7-7700x",
       "title": "AMD Ryzen 7 7700X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 7700X Specs.html",
+      "file_path": "data/AMD Ryzen 7 7700X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-7700x.c2848",
       "capture_method": "SingleFile",
@@ -175,9 +175,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-7700x3d-specs",
+      "document_id": "amd-ryzen-7-7700x3d",
       "title": "AMD Ryzen 7 7700X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 7700X3D Specs.html",
+      "file_path": "data/AMD Ryzen 7 7700X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-7700x3d.c4438",
       "capture_method": "SingleFile",
@@ -189,9 +189,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-7800x3d-specs",
+      "document_id": "amd-ryzen-7-7800x3d",
       "title": "AMD Ryzen 7 7800X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 7800X3D Specs.html",
+      "file_path": "data/AMD Ryzen 7 7800X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-7800x3d.c3022",
       "capture_method": "SingleFile",
@@ -203,9 +203,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-8700g-specs",
+      "document_id": "amd-ryzen-7-8700g",
       "title": "AMD Ryzen 7 8700G Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 8700G Specs.html",
+      "file_path": "data/AMD Ryzen 7 8700G.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-8700g.c3434",
       "capture_method": "SingleFile",
@@ -217,9 +217,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-8700ge-specs",
+      "document_id": "amd-ryzen-7-8700ge",
       "title": "AMD Ryzen 7 8700GE Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 8700GE Specs.html",
+      "file_path": "data/AMD Ryzen 7 8700GE.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-8700ge.c3493",
       "capture_method": "SingleFile",
@@ -231,9 +231,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-9700x-specs",
+      "document_id": "amd-ryzen-7-9700x",
       "title": "AMD Ryzen 7 9700X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 9700X Specs.html",
+      "file_path": "data/AMD Ryzen 7 9700X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-9700x.c3651",
       "capture_method": "SingleFile",
@@ -245,9 +245,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-9800x3d-specs",
+      "document_id": "amd-ryzen-7-9800x3d",
       "title": "AMD Ryzen 7 9800X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 9800X3D Specs.html",
+      "file_path": "data/AMD Ryzen 7 9800X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-9800x3d.c3891",
       "capture_method": "SingleFile",
@@ -259,9 +259,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-9850x3d-specs",
+      "document_id": "amd-ryzen-7-9850x3d",
       "title": "AMD Ryzen 7 9850X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 9850X3D Specs.html",
+      "file_path": "data/AMD Ryzen 7 9850X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-9850x3d.c4301",
       "capture_method": "SingleFile",
@@ -273,9 +273,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-7-pro-9755x3d-specs",
+      "document_id": "amd-ryzen-7-pro-9755x3d",
       "title": "AMD Ryzen 7 PRO 9755X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 7 PRO 9755X3D Specs.html",
+      "file_path": "data/AMD Ryzen 7 PRO 9755X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-7-pro-9755x3d.c4427",
       "capture_method": "SingleFile",
@@ -287,9 +287,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-7900-specs",
+      "document_id": "amd-ryzen-9-7900",
       "title": "AMD Ryzen 9 7900 Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 7900 Specs.html",
+      "file_path": "data/AMD Ryzen 9 7900.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-7900.c2961",
       "capture_method": "SingleFile",
@@ -301,9 +301,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-7900x-specs",
+      "document_id": "amd-ryzen-9-7900x",
       "title": "AMD Ryzen 9 7900X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 7900X Specs.html",
+      "file_path": "data/AMD Ryzen 9 7900X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-7900x.c2847",
       "capture_method": "SingleFile",
@@ -315,9 +315,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-7900x3d-specs",
+      "document_id": "amd-ryzen-9-7900x3d",
       "title": "AMD Ryzen 9 7900X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 7900X3D Specs.html",
+      "file_path": "data/AMD Ryzen 9 7900X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-7900x3d.c3023",
       "capture_method": "SingleFile",
@@ -329,9 +329,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-7950x-specs",
+      "document_id": "amd-ryzen-9-7950x",
       "title": "AMD Ryzen 9 7950X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 7950X Specs.html",
+      "file_path": "data/AMD Ryzen 9 7950X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-7950x.c2846",
       "capture_method": "SingleFile",
@@ -343,9 +343,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-7950x3d-specs",
+      "document_id": "amd-ryzen-9-7950x3d",
       "title": "AMD Ryzen 9 7950X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 7950X3D Specs.html",
+      "file_path": "data/AMD Ryzen 9 7950X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-7950x3d.c3024",
       "capture_method": "SingleFile",
@@ -357,9 +357,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-9900x-specs",
+      "document_id": "amd-ryzen-9-9900x",
       "title": "AMD Ryzen 9 9900X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 9900X Specs.html",
+      "file_path": "data/AMD Ryzen 9 9900X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-9900x.c3650",
       "capture_method": "SingleFile",
@@ -371,9 +371,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-9900x3d-specs",
+      "document_id": "amd-ryzen-9-9900x3d",
       "title": "AMD Ryzen 9 9900X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 9900X3D Specs.html",
+      "file_path": "data/AMD Ryzen 9 9900X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-9900x3d.c3997",
       "capture_method": "SingleFile",
@@ -385,9 +385,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-9950x-specs",
+      "document_id": "amd-ryzen-9-9950x",
       "title": "AMD Ryzen 9 9950X Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 9950X Specs.html",
+      "file_path": "data/AMD Ryzen 9 9950X.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-9950x.c3649",
       "capture_method": "SingleFile",
@@ -399,9 +399,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-9950x3d-specs",
+      "document_id": "amd-ryzen-9-9950x3d",
       "title": "AMD Ryzen 9 9950X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 9950X3D Specs.html",
+      "file_path": "data/AMD Ryzen 9 9950X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-9950x3d.c3993",
       "capture_method": "SingleFile",
@@ -413,9 +413,9 @@
       "unit_count": 1
     },
     {
-      "document_id": "amd-ryzen-9-pro-9965x3d-specs",
+      "document_id": "amd-ryzen-9-pro-9965x3d",
       "title": "AMD Ryzen 9 PRO 9965X3D Specs | TechPowerUp CPU Database",
-      "file_path": "data/AMD Ryzen 9 PRO 9965X3D Specs.html",
+      "file_path": "data/AMD Ryzen 9 PRO 9965X3D.html",
       "file_format": "html",
       "source_url": "https://www.techpowerup.com/cpu-specs/ryzen-9-pro-9965x3d.c4423",
       "capture_method": "SingleFile",
