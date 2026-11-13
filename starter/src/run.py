@@ -6,13 +6,13 @@ import json
 
 from pathlib import Path
 from dotenv import load_dotenv
-from src.evaluation import evaluate_query, summarize
-from src.ingestion import load_html_directory
-from src.metadata_cpu import enrich_cpu_metadata
-from src.chunking import fixed_size, by_paragraph
+from evaluation import evaluate_query, summarize
+from ingestion import load_html_directory
+from metadata_cpu import enrich_cpu_metadata
+from chunking import fixed_size, by_paragraph
 
-from src.embeddings import MyEmbedder
-from src.store import PgVectorStore
+from embeddings import MyEmbedder
+from store import PgVectorStore
 
 # Project configuration
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -163,9 +163,9 @@ def load_benchmark_questions():
         candidates = [benchmark_path]
     else:
         candidates = [
-            PROJECT_ROOT / "benchmark_questions_vi.json",
-            PROJECT_ROOT.parent / "benchmark_questions_vi.json",
-            DATA_DIR / "benchmark_questions_vi.json",
+            PROJECT_ROOT / "benchmark" / "benchmark_questions.json",
+            PROJECT_ROOT.parent / "benchmark" /  "benchmark_questions.json",
+            DATA_DIR / "benchmark_questions.json",
         ]
 
     benchmark_path = next(
@@ -175,7 +175,7 @@ def load_benchmark_questions():
 
     if benchmark_path is None:
         raise FileNotFoundError(
-            "Cannot find benchmark_questions_vi.json. "
+            "Cannot find benchmark_questions.json. "
             "Place it in the starter directory or set BENCHMARK_PATH."
         )
 
@@ -333,6 +333,21 @@ def save_retrieval_results(traces, embedder):
 
 
 def main() -> None:
+
+
+    # Stage 1: Load, enrich and chunk corpus.
+    pages, chunks_a, chunks_b, chunks_c = prepare_corpus()
+
+    # Stage 2: Generate embeddings and store vectors.
+    store, embedder = embed_and_store(
+        chunks_a,
+        chunks_b,
+        chunks_c,
+    )
+
+    print("\nStage 2 completed successfully.")
+
+
     """Run benchmark retrieval against previously stored strategies."""
 
     # Load .env.
@@ -362,7 +377,8 @@ def main() -> None:
         database_url=database_url,
         dimensions=embedder.dimensions,
     )
-
+    prepare_corpus()
+    embed_and_store(chunks_a, chunks_b, chunks_c);
     # Retrieve and evaluate.
     print("\nStarting benchmark retrieval...")
 

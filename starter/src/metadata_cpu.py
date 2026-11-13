@@ -2,7 +2,7 @@
 
 import re
 
-from .models import DocumentPage
+from models import DocumentPage
 
 
 def _extract_field(text: str, label: str) -> str | None:

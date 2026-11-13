@@ -3,7 +3,7 @@ import re
 import unicodedata
 import traceback
 from pypdf import PdfReader
-from .models import DocumentPage
+from models import DocumentPage
 from pathlib import Path
 from html.parser import HTMLParser
 from html import unescape

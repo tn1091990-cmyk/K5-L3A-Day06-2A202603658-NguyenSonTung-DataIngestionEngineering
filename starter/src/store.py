@@ -3,7 +3,7 @@ import json
 import math
 import psycopg
 from typing import Any
-from .models import Chunk
+from models import Chunk
 
 
 
