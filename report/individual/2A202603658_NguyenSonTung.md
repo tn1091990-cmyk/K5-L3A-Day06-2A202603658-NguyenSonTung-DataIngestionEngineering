@@ -253,14 +253,6 @@ Cả A, B và C đều có Hit@1 = True nhưng Evidence Hit@3 = False.
 
 Các chunk được xếp hạng cao có phần mô tả narrative liên quan đến 4 cores và 8 threads, nhưng không chứa đúng hai quote của gold evidence. Đây là ví dụ cho thấy tìm đúng document chưa đảm bảo tìm đúng evidence chunk.
 
-### Ví dụ lỗi 2
-
-Cần chọn thêm một câu hỏi có trace cho thấy:
-- Hit@1 sai hoặc Evidence Hit@3 sai;
-- Có thể xác định rõ gold source và chunk liên quan;
-- Có thể giải thích nguyên nhân dựa trên nội dung thực tế của trace.
-
-Không tự chọn một câu khác hoặc suy đoán nguyên nhân khi chưa kiểm tra trace.
 
 ### Chiến lược chọn, đánh đổi và điều kiện áp dụng
 
